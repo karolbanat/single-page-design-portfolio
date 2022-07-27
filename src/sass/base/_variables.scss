@@ -3,3 +3,49 @@ $breakpoints: (
 	medium: 48em,
 	large: 62em,
 );
+
+$colors: (
+	primary: (
+		400: hsl(28 100% 97%),
+	),
+	accent: (
+		300: hsl(0 78% 79%),
+		400: hsl(7 77% 66%),
+		500: hsl(28 89% 67%),
+		600: hsl(172 46% 57%),
+		700: hsl(252 66% 62%),
+		800: hsl(314 45% 23%),
+	),
+	neutral: (
+		100: hsl(0 0% 100%),
+		400: hsl(30 5% 45%),
+		800: hsl(0 0% 1%),
+		900: hsl(0 0% 0%),
+	),
+);
+
+$font-sizes: (
+	small: (
+		300: 1.4rem,
+		400: 1.6rem,
+		500: 2.4rem,
+		600: 2.6rem,
+		700: 3.6rem,
+	),
+	medium: (
+		300: 1.6rem,
+		400: 1.8rem,
+		500: 3.2rem,
+		600: 3.2rem,
+		700: 4.4rem,
+	),
+	large: (
+		600: 4rem,
+		700: 5.6rem,
+	),
+);
+// 3.6rem -> 4.4rem -> 5.6rem   h1
+// 1.6rem -> 1.8rem -> 1.8rem   text
+// 1.4rem -> 1.6rem -> 1.6rem   buttons
+// 2.6rem -> 3.2rem -> 4rem     h2 / section headings
+// 2.4rem -> 3.2rem -> 3.2rem   slider heading

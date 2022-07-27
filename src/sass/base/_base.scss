@@ -1,0 +1,28 @@
+body {
+	font-size: var(--fz-400);
+	font-family: var(--ff-primary);
+	font-weight: var(--fw-400);
+	background-color: var(--clr-primary-400);
+}
+
+h1,
+h2,
+h3 {
+	color: var(--clr-neutral-800);
+}
+
+h1 {
+	font-size: var(--fz-700);
+}
+
+h2 {
+	font-size: var(--fz-600);
+}
+
+h3 {
+	font-size: var(--fz-500);
+}
+
+:where(p:not([class])) {
+	color: var(--clr-neutral-400);
+}
