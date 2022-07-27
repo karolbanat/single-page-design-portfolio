@@ -44,8 +44,23 @@ $font-sizes: (
 		700: 5.6rem,
 	),
 );
-// 3.6rem -> 4.4rem -> 5.6rem   h1
-// 1.6rem -> 1.8rem -> 1.8rem   text
-// 1.4rem -> 1.6rem -> 1.6rem   buttons
-// 2.6rem -> 3.2rem -> 4rem     h2 / section headings
-// 2.4rem -> 3.2rem -> 3.2rem   slider heading
+
+$spacings: (
+	em: (
+		100: 0.5em,
+		200: 0.75em,
+		300: 1em,
+		400: 1.5em,
+		500: 2em,
+		600: 2.5em,
+		700: 3em,
+		900: 4em,
+	),
+	rem: (
+		300: 1.6rem,
+		400: 2.4rem,
+		500: 3rem,
+		600: 4rem,
+		700: 5.6rem,
+	),
+);

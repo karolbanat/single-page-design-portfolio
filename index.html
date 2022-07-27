@@ -29,17 +29,18 @@
     <div class="container">
         <header aria-labelledby="primary-heading"
                 class="header | flow">
-            <nav class="navigation | flex-space-between">
+            <nav class="flex-space-between">
                 <a aria-label="Home page"
                    href="#">
                     <img src="./dist/assets/logo.svg"
-                         alt="">
+                         alt=""
+                         class="logo">
                 </a>
                 <a href="#"
                    class="button">Free Consultation</a>
             </nav>
 
-            <div class="header__content | flow">
+            <div class="header__content">
                 <h1 id="primary-heading"
                     class="header__heading">Design solutions made easy</h1>
                 <p>With over ten years of experience in various design disciplines, I'm your one-stop shop for your
@@ -71,55 +72,52 @@
     </div>
 
     <main>
-        <section aria-labelledby="about-heading"
-                 class="about">
-            <div class="container">
-                <div class="about__body | flex-align-center">
-                    <img src="./dist/assets/image-amy.webp"
-                         alt="Photo of Amy, smiling."
-                         class="about__image">
-                    <header class="about__header | flow">
-                        <h2 id="about-heading">I'm Amy, and I'd love to work on your next project</h2>
-                        <p>I love working with others to create beautiful design solutions. I've designed everything
-                            from
-                            brand illustrations
-                            to complete mobile apps. I'm also handy with a camera!</p>
-                        <a href="#"
-                           class="button button--accent">Free Consultation</a>
-                    </header>
-                </div>
-            </div>
-        </section>
+        <div class="container">
+            <section aria-labelledby="about-heading"
+                     class="about | section flex-align-center">
+                <img src="./dist/assets/image-amy.webp"
+                     alt="Photo of Amy, smiling."
+                     class="about__image">
+                <header class="about__header | flow">
+                    <h2 id="about-heading">I'm Amy, and I'd love to work on your next project</h2>
+                    <p>I love working with others to create beautiful design solutions. I've designed everything
+                        from
+                        brand illustrations
+                        to complete mobile apps. I'm also handy with a camera!</p>
+                    <a href="#"
+                       class="button button--accent">Free Consultation</a>
+                </header>
+            </section>
+        </div>
 
-        <section class="work | flow">
+        <section class="work | section flow">
             <h3>My Work</h3>
             <!-- slider here -->
         </section>
 
-        <section class="call | bg-neutral-800 text-primary-400">
-            <div class="container">
-                <div class="call__body | flex-align-center">
-                    <header class="call__header | flow">
-                        <h2 class="text-primary-400">Book a call with me</h2>
-                        <p>I'd love to have a chat to see how I can help you. The best first step is for us to discuss
-                            your
-                            project during a
-                            free consultation. Then we can move forward from there.</p>
-                    </header>
-                    <a href="#"
-                       class="button button--accent">Free Consultation</a>
-                </div>
-            </div>
-        </section>
+        <div class="container">
+            <section class="call | section flex-align-center bg-neutral-800 text-primary-400">
+                <header class="call__header | flow">
+                    <h2 class="text-primary-400">Book a call with me</h2>
+                    <p>I'd love to have a chat to see how I can help you. The best first step is for us to discuss
+                        your
+                        project during a
+                        free consultation. Then we can move forward from there.</p>
+                </header>
+                <a href="#"
+                   class="button button--accent">Free Consultation</a>
+            </section>
+        </div>
     </main>
 
     <footer>
         <div class="container">
-            <div class="flex-space-beetween">
+            <div class="flex-space-between">
                 <a aria-label="Home page"
                    href="#">
                     <img src="./dist/assets/logo.svg"
-                         alt="">
+                         alt=""
+                         class="logo">
                 </a>
                 <a href="#"
                    class="button">Free Consultation</a>

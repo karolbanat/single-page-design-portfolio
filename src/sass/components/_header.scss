@@ -1,0 +1,18 @@
+.header {
+	--flow-spacer: clamp(var(--spacing-em-500), 5vw, var(--spacing-em-900));
+
+	padding-block: clamp(var(--spacing-rem-300), 4vw, var(--spacing-rem-600));
+
+	&__content {
+		text-align: center;
+
+		& > p {
+			margin-inline: auto;
+			max-width: 55ch;
+		}
+	}
+
+	&__heading {
+		margin-bottom: var(--spacing-rem-300);
+	}
+}
