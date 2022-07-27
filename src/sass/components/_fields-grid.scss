@@ -1,0 +1,46 @@
+@use '../base/mixins';
+
+.fields-grid {
+	--gap: var(--spacing-rem-400);
+	--card-height: 36.4rem;
+
+	display: grid;
+	gap: var(--gap);
+	grid-template-rows: 2fr 2fr 1fr 1fr;
+
+	@include mixins.mq(medium) {
+		grid-template-rows: 2fr 1fr;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	@include mixins.mq(large) {
+		grid-template-rows: calc(var(--card-height) / 2) auto;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	// --- elements
+	&__inner-grid {
+		display: grid;
+		gap: var(--gap);
+		grid-template-rows: 50% auto;
+		grid-template-columns: repeat(2, 1fr);
+
+		@include mixins.mq(large) {
+			grid-row: 1 / -1;
+		}
+	}
+
+	&__card {
+		&--big {
+			height: var(--card-height);
+
+			@include mixins.mq(large) {
+				grid-row: 1 / -1;
+			}
+		}
+
+		&--col-span {
+			grid-column: 1 / -1;
+		}
+	}
+}

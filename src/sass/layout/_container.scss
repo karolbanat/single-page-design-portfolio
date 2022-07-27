@@ -1,5 +1,5 @@
 .container {
-	--max-width: 69.375em;
+	--max-width: 111rem;
 	--padding-inline: clamp(var(--spacing-rem-300), 10vw - 2em, var(--spacing-rem-600));
 
 	width: min(var(--max-width), 100% - 2 * var(--padding-inline));
