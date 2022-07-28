@@ -1,3 +1,6 @@
+const prevBtn = document.querySelector('.slider__btn-prev');
+const nextBtn = document.querySelector('.slider__btn-next');
+
 $(document).ready(function () {
 	$('.slider__images').slick({
 		arrows: false,
@@ -6,9 +9,6 @@ $(document).ready(function () {
 		initialSlide: 2,
 	});
 });
-
-const prevBtn = document.querySelector('.slider__btn-prev');
-const nextBtn = document.querySelector('.slider__btn-next');
 
 prevBtn.addEventListener('click', () => {
 	$('.slider__images').slick('slickPrev');

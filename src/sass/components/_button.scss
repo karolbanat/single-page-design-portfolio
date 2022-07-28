@@ -56,5 +56,18 @@
 		padding: 0;
 		width: 6.4rem;
 		aspect-ratio: 1;
+
+		&-left {
+			&::before {
+				transform-origin: left;
+			}
+
+			&:hover,
+			&:focus-visible {
+				&::before {
+					transform-origin: right;
+				}
+			}
+		}
 	}
 }
