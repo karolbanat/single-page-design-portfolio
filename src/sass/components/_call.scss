@@ -5,8 +5,8 @@
 
 	&__inner {
 		--flex-spacer: var(--spacing-em-400);
-		--padding-block: var(--spacing-em-700);
-		--padding-inline: var(--spacing-em-500);
+		--padding-block: var(--spacing-rem-650);
+		--padding-inline: var(--spacing-rem-400);
 
 		display: flex;
 		flex-direction: column;
@@ -16,12 +16,12 @@
 		border-radius: 1rem;
 
 		@include mixins.mq(medium) {
-			--padding-block: var(--spacing-em-800);
-			--padding-inline: var(--spacing-em-800);
+			--padding-block: var(--spacing-rem-750);
+			--padding-inline: var(--spacing-rem-750);
 		}
 
 		@include mixins.mq(large) {
-			--padding-block: var(--spacing-em-900);
+			--padding-block: var(--spacing-rem-800);
 
 			flex-direction: row;
 			text-align: initial;

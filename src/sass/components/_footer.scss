@@ -1,0 +1,4 @@
+.footer {
+	padding-top: clamp(var(--spacing-rem-300), 4vw, var(--spacing-rem-600));
+	padding-bottom: clamp(var(--spacing-rem-500), 5vw, var(--spacing-rem-750));
+}
