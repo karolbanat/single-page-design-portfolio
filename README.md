@@ -10,8 +10,8 @@ This is a solution to the [Single-page design portfolio challenge on Frontend Me
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution Page](https://your-solution-url.com)
-- Live Site URL: [GitHub Pages Site](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/single-page-design-portfolio-2Q2GqPg8fW)
+- Live Site URL: [GitHub Pages Site](https://karolbanat.github.io/single-page-design-portfolio/)
 
 ### Built with
 
