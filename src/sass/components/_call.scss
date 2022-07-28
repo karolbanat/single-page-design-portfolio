@@ -1,0 +1,34 @@
+@use '../base/mixins';
+
+.call {
+	--section-spacer: 9rem var(--spacing-rem-300);
+
+	&__inner {
+		--flex-spacer: var(--spacing-em-400);
+		--padding-block: var(--spacing-em-700);
+		--padding-inline: var(--spacing-em-500);
+
+		display: flex;
+		flex-direction: column;
+		padding-block: var(--padding-block);
+		padding-inline: var(--padding-inline);
+		text-align: center;
+		border-radius: 1rem;
+
+		@include mixins.mq(medium) {
+			--padding-block: var(--spacing-em-800);
+			--padding-inline: var(--spacing-em-800);
+		}
+
+		@include mixins.mq(large) {
+			--padding-block: var(--spacing-em-900);
+
+			flex-direction: row;
+			text-align: initial;
+		}
+	}
+
+	&__text {
+		max-width: 40ch;
+	}
+}

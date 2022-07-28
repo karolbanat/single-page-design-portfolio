@@ -20,7 +20,11 @@
 	}
 
 	&__image {
-		max-width: clamp(30rem, 45vw, 44.5rem);
+		--min-width: 30rem;
+		--max-width: 44.5rem;
+		--grow-rate: 45vw;
+
+		max-width: clamp(var(--min-width), var(--grow-rate), var(--max-width));
 
 		@include mixins.mq(medium) {
 			margin-left: -10%;
