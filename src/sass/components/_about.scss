@@ -1,0 +1,33 @@
+@use '../base/mixins';
+
+.about {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(var(--spacing-rem-600), 8vw, 12rem);
+
+	@include mixins.mq(medium) {
+		flex-direction: row;
+	}
+
+	// --- elements
+	&__header {
+		--flow-spacer: var(--spacing-em-300);
+		text-align: center;
+
+		@include mixins.mq(medium) {
+			text-align: initial;
+		}
+	}
+
+	&__image {
+		max-width: clamp(30rem, 45vw, 44.5rem);
+
+		@include mixins.mq(medium) {
+			margin-left: -10%;
+		}
+
+		@include mixins.mq(large) {
+			margin-left: auto;
+		}
+	}
+}
