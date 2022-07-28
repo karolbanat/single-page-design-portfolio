@@ -18,6 +18,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet"
+          type="text/css"
+          href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet"
           href="./dist/css/main.min.css">
 
 
@@ -92,9 +95,48 @@
             </section>
         </div>
 
-        <section class="work | section flow">
-            <h3>My Work</h3>
+        <section class="work | section">
+            <h3 class="work__heading">My Work</h3>
             <!-- slider here -->
+            <div class="slider | flow flex-align-center">
+                <div class="slider__images">
+                    <div>
+                        <img src="./dist/assets/image-slide-1.jpg"
+                             alt="Irregular figure dashing."
+                             class="slider__image">
+                    </div>
+                    <div>
+                        <img src="./dist/assets/image-slide-2.jpg"
+                             alt="Patter with different shapes."
+                             class="slider__image">
+                    </div>
+                    <div>
+                        <img src="./dist/assets/image-slide-3.jpg"
+                             alt="Hand holding newspaper with colorful article."
+                             class="slider__image">
+                    </div>
+                    <div>
+                        <img src="./dist/assets/image-slide-4.jpg"
+                             alt="Notebooks with yellow sticky cards."
+                             class="slider__image">
+                    </div>
+                    <div>
+                        <img src="./dist/assets/image-slide-5.jpg"
+                             alt="Hand holding phone, previewing design."
+                             class="slider__image">
+                    </div>
+                </div>
+                <div class="slider__controls">
+                    <button aria-label="Previous image"
+                            class="button button--controls button--controls-left slider__btn-prev">
+                        <img src="./dist/assets/icon-arrow-left.svg"
+                             alt=""></button>
+                    <button aria-label="Next image"
+                            class="button button--controls slider__btn-next">
+                        <img src="./dist/assets/icon-arrow-right.svg"
+                             alt=""></button>
+                </div>
+            </div>
         </section>
 
         <section class="call | section">
@@ -130,6 +172,13 @@
         </div>
     </footer>
 
+    <script type="text/javascript"
+            src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript"
+            src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./dist/js/main.min.js"></script>
 </body>
 
 </html>

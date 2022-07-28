@@ -1,0 +1,20 @@
+.slider {
+	display: flex;
+	flex-direction: column;
+	gap: clamp(var(--spacing-em-500), 4vw, var(--spacing-em-700));
+	overflow-x: hidden;
+
+	&__controls {
+		display: flex;
+		gap: var(--spacing-rem-300);
+	}
+
+	&__image {
+		border-radius: 1rem;
+		width: clamp(27rem, 70vw, 54rem);
+	}
+}
+
+.slick-slide {
+	margin-inline: var(--spacing-rem-300);
+}
