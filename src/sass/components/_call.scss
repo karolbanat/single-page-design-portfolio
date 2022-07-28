@@ -16,12 +16,12 @@
 		border-radius: 1rem;
 
 		@include mixins.mq(medium) {
-			--padding-block: var(--spacing-rem-750);
-			--padding-inline: var(--spacing-rem-750);
+			--padding-block: var(--spacing-rem-800);
+			--padding-inline: var(--spacing-rem-800);
 		}
 
 		@include mixins.mq(large) {
-			--padding-block: var(--spacing-rem-800);
+			--padding-block: var(--spacing-rem-900);
 
 			flex-direction: row;
 			text-align: initial;
